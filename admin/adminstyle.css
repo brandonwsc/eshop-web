@@ -1,0 +1,24 @@
+.drag-and-drop{
+    border:1px solid black;
+  }
+.pic{
+    border: 1px solid black; 
+    border-radius: 4px;  
+    padding: 5px;
+    width: 150px;
+}
+
+
+fieldset{
+    border: 1px solid black; 
+    padding: 20px;
+}
+
+.file{
+    background: rgb(206, 202, 166);
+    width: 1200px;
+    color: black;
+    height:150px;
+}
+  
+  

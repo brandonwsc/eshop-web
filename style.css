@@ -1,0 +1,259 @@
+
+header{
+    height: 100px;
+}
+
+.Header{
+  font-size:24px;
+  color:#0011ff;
+  text-align: left;
+  position: relative;
+}
+
+.head_content{
+  text-align: left;
+  position: relative;
+}
+/*Body*/
+body{color:rgb(17, 4, 4)}
+
+ul {
+  padding: 5;
+  margin: 3;
+}
+
+/*Shopping list and hover*/
+.show_shopping_list {
+    position: relative; bottom: 60px; left: 700px;
+    background-color:#6dabbb;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 220px;
+    display: inline-block;
+  }
+  
+  .shopping_list {
+    position: relative;
+    display: inline-block;
+    outline: 100px
+  }
+  
+  .shopping_list-content {
+    position: relative; bottom: 60px; left: 700px;
+    display: none;
+    background-color: #f1f1f1;
+    width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+  }
+  
+  .shopping_list-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .shopping_list-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .shopping_list:hover .shopping_list-content {
+    display: block;
+  }
+  
+  .shopping_list:hover .show_shopping_list {
+    background-color: #6dabbb;
+  }
+   
+  .shopping_list_name{
+    display: inline-block;
+    min-width: 180px;
+  }
+
+  .item_quantity{
+    width: 20px;
+    position:  relative; left: 10px;
+    display: inline-block;
+  }
+  .shopping_list_item{
+    display: block;
+  }
+
+  .checkout{
+    display: block;
+    position:  relative; left: 140px;
+    background-color: white;
+    color: black;
+    border: 2px solid #93b8f0;
+  }
+
+/*start to show the main content of body*/
+.main{
+  position:  relative; bottom: 50px;
+  top: 10px;
+  width:1060px;
+}
+
+/*Category*/
+.category{
+    float: left;
+    font-size:14px;
+    background-color: rgb(209, 207, 207);
+    width: 160px;
+    border: 10px solid rgb(127, 189, 189);
+    padding: 10px;
+    margin: 5px;
+}
+/*Menu*/
+.menu{
+    position:  relative; bottom: 50px;
+    text-align: center; 
+    font-size:14px;
+    background-color: rgb(209, 207, 207);
+    width: 895px;
+    padding: 10px;
+    margin: 5px;
+}
+
+/*Product list*/
+  .table{
+    position:  relative; bottom: 50px;
+    width:800px;
+    margin:0;
+    padding:0;
+    list-style:none; 
+    overflow:auto;
+    min-height: 600px;
+  }
+  .table ul{
+    width: 160px;
+    height:220px;
+    float:left;
+    border:1px solid #CCC
+  }
+
+  .product .product_picture{
+    border: 1px solid #ddd; 
+    border-radius: 4px;  
+    padding: 5px;
+    width: 150px; 
+    height: 150px;
+  }
+
+  .product .product_name{
+    width: 150px;
+    display: block;
+    text-align:center;
+  }
+  .product .product_price{
+    width: 150px;
+    display: block;
+    text-align:center;
+  }
+  .product .add_to_cart{
+    display: block;
+    text-align:center;
+  }
+
+
+
+/*Product page*/
+  .product_content{
+    position:  relative; bottom: 50px;
+    width:660px;
+    display: inline-block;
+  }
+
+  .product_content .product_picture{
+    border-radius: 4px; 
+    padding: 5px; 
+    width: 660px;
+    height: 660px;
+  }
+
+  .product_content .detail{
+    display: block;
+    width:670px;
+    padding: 5px;
+  }
+  .product_content .product_description{
+    display: block;
+    text-align:left;
+    width:660px;
+    padding: 5px;
+  }
+
+  .product_content .product_name{
+    display: block;
+    text-align:left;
+    width:500px;
+    padding: 5px;
+    font-size:24px;
+  }
+  .product_content .product_price{
+    display: block;
+    text-align:right;
+    width:500px;
+    padding: 5px;
+    position:  relative; left: 170px;
+  }
+  .product_content .add_to_cart{
+    display: block;
+    text-align:right;
+    width:500px;
+    padding: 5px;
+    position:  relative; left: 170px;
+  }
+  .product_content .inventory{
+    display: block;
+    text-align:left;
+    width:500px;
+    padding: 5px;
+    color:#ff0800;
+  }
+
+/*Band list on the Main page*/
+  .main_table{
+    border-radius: 4px; 
+    padding: 5px;
+    width: 400px;
+    position:  absolute;
+    width:600px;
+    left: 200px;
+  }
+
+  .main_table .picture{
+    border-radius: 4px; 
+    padding: 5px; 
+    width: 240px;
+    height: 240px;
+    text-align:center;
+  }
+
+  .main_table .band_name{
+    display: block;
+    text-align:center;
+    width:500px;
+    padding: 5px;
+    font-size:24px;
+  }
+  .main_table .band{
+    text-align:center;
+    display: block;
+
+  }
+
+  
+.logout{
+  display: inline block;
+}
+
+
+
+
+
+  
